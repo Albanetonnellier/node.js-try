@@ -10,6 +10,6 @@ import Ninjas from './Ninjas.vue'
 
 export default {
   components: {
-  'ninjas': Ninhas
+  'ninjas': Ninjas
   },
 }
