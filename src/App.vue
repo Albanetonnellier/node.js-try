@@ -21,6 +21,6 @@ export default {
 
 <style>
 h1 {
-  
+  color: #222
 }
 </style>
