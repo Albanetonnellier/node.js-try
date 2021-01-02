@@ -12,4 +12,9 @@ export default {
   components: {
   'ninjas': Ninjas
   },
+  data() {
+  return {
+    title: 'ninja app'
+  }
+  }
 }
