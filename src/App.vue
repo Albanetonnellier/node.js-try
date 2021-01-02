@@ -1,8 +1,7 @@
 <template>
-<div>
-  <h1>{{ title }}</h1>
-  <ninjas></ninjas>
-</div>
+  <header>
+    <h1> {{ title }}</h1>
+  </header>
 </template>
 
 <script>
