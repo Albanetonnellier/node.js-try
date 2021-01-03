@@ -17,3 +17,8 @@ data() {
 	title: 'Vue Ninjas'
 	}
 },
+methods: {
+	changeTile: function(){
+	this.title = "Vue Wizards"
+	}
+}
