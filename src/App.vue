@@ -16,7 +16,8 @@ export default {
   data() {
   return {
     title: 'ninja app'
-  }
+  },
+  title: 
   }
 }
 </script>
