@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Ninjas from './Ninjas.vue'
+import Ninjas from './ninja.vue'
 
 export default {
   components: {
