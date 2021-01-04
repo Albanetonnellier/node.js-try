@@ -4,4 +4,5 @@
 </template>
 
 <script>
+import formHelper from './components/formHelper.vue'
 </script>
