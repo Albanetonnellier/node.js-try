@@ -10,5 +10,12 @@ export default {
 	components: {
 	'form-helper': formHelper
 },
-data
+data() {
+	return {
+
+	}
+},
+methods: {
+	
+}
 </script>
