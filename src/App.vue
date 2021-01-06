@@ -37,4 +37,10 @@
 #checkboxes label{
   display: inline-block;
 }
+
+#preview{
+  padding: 10px 20px;
+  border: 1px dotted #ccc;
+  margin: 30px 0;
+}
 </style>
