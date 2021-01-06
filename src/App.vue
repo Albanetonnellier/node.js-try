@@ -33,4 +33,8 @@
   display: inline-block;
   margin-right: 10px;
 }
+
+#checkboxes label{
+  display: inline-block;
+}
 </style>
