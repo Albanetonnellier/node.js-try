@@ -6,6 +6,8 @@
       <input type="text" v-model.lazy="blog.title">
       <label>Blog content:</label>
       <textarea v-model.lazy="blog.content"></textarea>
+      <div id="checkboxes">
+        <label></label>
     </form>
     <div id="preview">
       <h3>Preview blog</h3>
