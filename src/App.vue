@@ -7,7 +7,14 @@
       <label>Blog content:</label>
       <textarea v-model.lazy="blog.content"></textarea>
       <div id="checkboxes">
-        <label></label>
+        <label>Ninjas</label>
+        <input type="checkbox" value="" v-model=""/>
+        <label>Elf</label>
+        <input type="checkbox" value="" v-model=""/>
+        <label>Wizard</label>
+        <input type="checkbox" value="" v-model=""/>
+        <label>Knight</label>
+        <input type="checkbox" value="" v-model=""/>
     </form>
     <div id="preview">
       <h3>Preview blog</h3>
