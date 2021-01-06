@@ -29,4 +29,8 @@
 </script>
 
 <style>
+#checkboxes input{
+  display: inline-block;
+  margin-right: 10px;
+}
 </style>
