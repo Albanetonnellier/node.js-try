@@ -4,3 +4,19 @@
 		<div-v-for="" class="single-blog"></div>
 	</div>
 </template>
+
+<script>
+
+export default {
+	
+	data() {
+	return {
+
+	}
+	},
+	methods: {
+	
+	}
+}
+
+</script>
