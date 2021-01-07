@@ -11,7 +11,7 @@ export default {
 	
 	data() {
 	return {
-
+		blogs: []
 	}
 	},
 	methods: {
@@ -19,8 +19,7 @@ export default {
 	},
 	created() {
 	this.$http.get('https:///jsonplaceholder.typicode.com/posts').then(function(data){
-		console.log(data);
-		data.body.slice(0,10);
+		this.blogs = data.body.slice(0,10);
 	})
 	}
 }
