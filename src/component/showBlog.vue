@@ -15,7 +15,12 @@ export default {
 	}
 	},
 	methods: {
-	
+
+	},
+	created() {
+	this.$http.get('https:///jsonplaceholder.typicode.com/posts').then(function(data){
+		console.log
+	})
 	}
 }
 
