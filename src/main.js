@@ -5,3 +5,7 @@ new Vue({
   el: '#app',
   render: h => h(App)
 })
+
+//filters
+
+Vue.filter('to-uppercase', function(value))
