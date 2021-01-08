@@ -11,3 +11,7 @@ new Vue({
 Vue.filter('to-uppercase', function(value){
 	return value.toUppercase();
 });
+
+Vue.filter('nippet', function(value){
+	return value.slice(0,100);
+});
