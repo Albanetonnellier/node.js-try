@@ -3,7 +3,7 @@
 		<h1>All blog Articles</h1>
 		<div-v-for="blog in blogs" class="single-blog"></div>
 		<h2>{{blog.title | to-uppercase}}</h2>
-		<article>{{ blog.body}}</article>
+		<article>{{ blog.body | snippet }}</article>
 	</div>
 </template>
 
