@@ -1,6 +1,7 @@
 <template>
 	<div id="show-blogs">
 		<h1>All blog Articles</h1>
+		<input type="text" v-model="search" placeholder="search blogs"/>
 		<div-v-for="blog in blogs" class="single-blog"></div>
 		<h2>{{blog.title | to-uppercase}}</h2>
 		<article>{{ blog.body | snippet }}</article>
