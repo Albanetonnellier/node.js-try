@@ -8,4 +8,6 @@ new Vue({
 
 //filters
 
-Vue.filter('to-uppercase', function(value))
+Vue.filter('to-uppercase', function(value){
+	return value.toUppercase();
+});
