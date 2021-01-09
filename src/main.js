@@ -15,3 +15,8 @@ Vue.filter('to-uppercase', function(value){
 Vue.filter('nippet', function(value){
 	return value.slice(0,100) + '...';
 });
+filters: {
+	'to-uppercase':function(value){
+		return value.toUppercase();
+	}
+}
