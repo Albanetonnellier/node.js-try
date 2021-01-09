@@ -17,6 +17,10 @@ new Vue({
 
 //filters
 
+new Vue ({
+	router:router
+})
+
 Vue.filter('to-uppercase', function(value){
 	return value.toUppercase();
 });
