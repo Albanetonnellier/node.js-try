@@ -19,4 +19,11 @@ filters: {
 	'to-uppercase':function(value){
 		return value.toUppercase();
 	}
+},
+directives: {
+	'rainbow': {
+		bind(el, binding, vnode){
+			
+		}
+	}
 }
