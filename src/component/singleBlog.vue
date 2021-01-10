@@ -7,6 +7,11 @@
 
 <script>
 export default {
-	data () {}
+	data () {
+	return {
+		id: null,
+		blog: {}
+	}
+	}
 }
 </script>
