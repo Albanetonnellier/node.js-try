@@ -4,3 +4,9 @@
 		<article></article>
 	</div>
 </template>
+
+<script>
+export default {
+	data () {}
+}
+</script>
