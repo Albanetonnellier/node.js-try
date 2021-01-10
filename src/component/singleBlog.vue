@@ -14,7 +14,9 @@ export default {
 	}
 	},
 	created() {
-		this.$http.get('')
+		this.$http.get('' + this.id).then(function(data){
+		this.blog = data.body;
+		});
 	}
 }
 </script>
