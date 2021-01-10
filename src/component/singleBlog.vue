@@ -1,7 +1,7 @@
 <template>
 	<div id="single-blog">
 		<h1></h1>
-		<article></article>
+		<article>{{ blog.body }}</article>
 	</div>
 </template>
 
