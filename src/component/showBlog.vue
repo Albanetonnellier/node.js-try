@@ -23,6 +23,10 @@ export default {
 	},
 	created() {
 	this.$http.get('https:///jsonplaceholder.typicode.com/posts').then(function(data){
+		var blogsArray = [];
+		for (let key in data){
+		
+		}
 	})
 	},
 	computed: {
