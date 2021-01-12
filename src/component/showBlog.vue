@@ -26,6 +26,7 @@ export default {
 		var blogsArray = [];
 		for (let key in data){
 		data[key].id = key
+		blogsArray.push()
 		}
 	})
 	},
