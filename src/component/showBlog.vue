@@ -25,7 +25,7 @@ export default {
 	this.$http.get('https:///jsonplaceholder.typicode.com/posts').then(function(data){
 		var blogsArray = [];
 		for (let key in data){
-		
+		data[key].id = key
 		}
 	})
 	},
