@@ -28,6 +28,7 @@ export default {
 		data[key].id = key
 		blogsArray.push(data[key]);
 		}
+		this.blogs = blogsArray; 
 	})
 	},
 	computed: {
