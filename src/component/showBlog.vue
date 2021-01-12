@@ -31,6 +31,14 @@ export default {
 			return this.blogs.filter((blog) => {
 				return blog.title.match(this.search)
 			});
+	filters: {
+		toUppercase(value){
+			return value.toUpperCase();
+		}
+	},
+	directives: {
+	
+	}
 
 	}
 	}
